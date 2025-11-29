@@ -1,0 +1,68 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #FAFAF5;
+color: #333;
+}
+
+header {
+background-color: #5E8B7E;
+color: #fff;
+text-align: center;
+padding: 1rem;
+background-image: url("../images/LogoSmall.png");
+background-repeat: no-repeat;
+background-position: right top;
+min-height: 50px;
+}
+
+nav {
+background-color: #E6F2E0;
+text-align: center;
+padding: 0.5rem;
+}
+
+nav a {
+text-decoration: none;
+color: #5E8B7E;
+margin: 0 10px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #000;
+}
+
+main {
+padding: 20px;
+text-align: center;
+}
+
+.hero {
+width: 90%;
+max-width: 600px;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+margin-bottom: 20px;
+}
+
+footer {
+background-color: #5E8B7E;
+color: #fff;
+text-align: center;
+padding: 1rem;
+}
+
+@media (min-width: 768px) {
+header {
+background-image: url("../images/LogoLarge.png");
+min-height: 100px;
+}
+
+main {
+width: 80%;
+margin: auto;
+}
+
+}
